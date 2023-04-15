@@ -4,7 +4,7 @@ from tkinter import *
 from random import randint
 
 root = Tk()
-root.title('Clever - Password Generator')
+root.title('Custom Password Generator')
 root.geometry("500x300")
 
 my_password = chr(randint(10, 126))
